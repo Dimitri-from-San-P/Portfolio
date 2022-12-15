@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Slabo+27px&display=swap");
+
+html {
+  background-image: url(img/water1.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  padding: 30px;
+}
+header img {
+  width: 50%;
+}
+#header {
+  background: #4c4c4c; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #4c4c4c 0%,
+    #1c1c1c 74%,
+    #131313 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #4c4c4c 0%,
+    #1c1c1c 74%,
+    #131313 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #4c4c4c 0%,
+    #1c1c1c 74%,
+    #131313 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 */
+}
+
+.navi {
+  list-style-type: none;
+  padding-left: 320px;
+  padding-bottom: 50px;
+  margin-left: 0;
+  margin-top: -120px;
+}
+
+.navi a {
+  text-decoration: none;
+  font-family: "Corinthia", cursive;
+  font-size: 40px;
+  color: aliceblue;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.137);
+  border-bottom: 5px solid gray;
+  box-shadow: 0 0 20px 0 rgba(41, 39, 39, 0.8);
+}
+.navi li {
+  display: inline;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(241, 236, 227);
+  font-size: 70px;
+  font-family: "Corinthia", cursive;
+}
+
+body > table.Post > tbody > tr > th:nth-child(2) > p:nth-child(1) {
+  text-align: center;
+  color: rgb(241, 236, 227);
+  font-size: 70px;
+  font-family: "Corinthia", cursive;
+}
+
+body > table.Post > tbody > tr > th > p:nth-child(3) > i {
+  text-align: justify;
+  color: rgb(241, 236, 227);
+  font-size: 30px;
+  font-weight: 100;
+  margin-left: 50px;
+}
+
+body > table.Post > tbody > tr > th:nth-child(2) > p:nth-child(4) > i {
+  text-align: justify;
+  color: rgb(241, 236, 227);
+  font-size: 30px;
+  font-weight: 100;
+  margin-left: 50px;
+}
+
+body > table.Post > tbody > tr > th:nth-child(2) > p:nth-child(2) {
+  text-align: left;
+  color: rgb(241, 236, 227);
+  font-size: 45px;
+  font-weight: 100;
+  font-family: "Corinthia", cursive;
+}
+
+body > table.Post > tbody > tr > th:nth-child(1) > img {
+  height: 600px;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body > table > tbody > tr:nth-child(1) {
+  height: 400px;
+  width: 500px;
+}
+
+body > table > tbody > tr:nth-child(2) {
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: 100;
+  font-family: "Corinthia", cursive;
+}
+
+body > ul.social-icons {
+  background: #6a6a6a; /* Old browsers */
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    #6a6a6a 19%,
+    #3b3b3b 97%
+  ); /* FF3.6-15 */
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    #6a6a6a 19%,
+    #3b3b3b 97%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(
+    ellipse at center,
+    #6a6a6a 19%,
+    #3b3b3b 97%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6a6a6a', endColorstr='#3b3b3b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h3 {
+  color: aliceblue;
+  font-size: 45px;
+  font-weight: 100;
+  font-family: "Corinthia", cursive;
+}
+.social-icons {
+  text-align: center;
+}
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+.social-icons li a {
+  border-bottom: none;
+}
+.social-icons li img {
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+footer {
+  text-align: center;
+  color: aliceblue;
+  font-size: 35px;
+  font-weight: 100;
+  font-family: "Corinthia", cursive;
+}
